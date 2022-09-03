@@ -3,6 +3,7 @@ from odoo import api, fields, models, _, tools
 from odoo.osv import expression
 from odoo.exceptions import UserError, ValidationError
 
+
 class AccountAccountType(models.Model):
     _name = "account.account.type"
     _description = "Account Type"
